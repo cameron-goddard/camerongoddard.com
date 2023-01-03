@@ -9,10 +9,10 @@
             <link>https://sparkle-project.org</link>
             <sparkle:version>2.0</sparkle:version>
             <sparkle:releaseNotesLink>
-                https://you.com/app/2.0.html
+                https://www.camerongoddard.com/diningbar/release_notes.html
             </sparkle:releaseNotesLink>
             <sparkle:fullReleaseNotesLink>
-                https://you.com/app/changelog.php
+                https://www.camerongoddard.com/diningbar/release_notes.html
             </sparkle:fullReleaseNotesLink>
             <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
             <enclosure url="https://you.com/app/Your%20Great%20App%202.0.zip" length="1623481" type="application/octet-stream" sparkle:edSignature="WVyVJpOx+a5+vNWJVY79TRjFKveNk+VhGJf2iti4CZtJsJewIUGvh/1AKKEAFbH1qUwx+vro1ECuzOsMmumoBA==" />
