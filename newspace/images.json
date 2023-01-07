@@ -58,5 +58,29 @@
         "image": "https://images-assets.nasa.gov/image/E-38387/E-38387~orig.jpg",
         "source": "https://images.nasa.gov/details-E-38387",
         "wiki": "https://en.wikipedia.org/wiki/STS-1"
+    },
+    {
+        "name": "Columbia and Discovery await launch",
+        "image": "https://images-assets.nasa.gov/image/S90-48650/S90-48650~orig.jpg",
+        "source": "https://images.nasa.gov/details-S90-48650",
+        "wiki": "https://en.wikipedia.org/wiki/STS-41"
+    },
+    {
+        "name": "Pad 39A under construction",
+        "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/618741main_1965-11-02_full.jpg",
+        "source": "https://www.nasa.gov/image-feature/early-construction-of-launch-pad-39a",
+        "wiki": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39A"
+    },
+    {
+        "name": "Apollo awaits liftoff",
+        "image": "https://images-assets.nasa.gov/image/9248356/9248356~orig.jpg",
+        "source": "https://images.nasa.gov/details-9248356",
+        "wiki": "https://en.wikipedia.org/wiki/Apollo%E2%80%93Soyuz"
+    },
+    {
+        "name": "Challenger rolls out for its maiden flight",
+        "image": "https://images-assets.nasa.gov/image/S82-41140/S82-41140~orig.jpg",
+        "source": "https://images.nasa.gov/details-S82-41140",
+        "wiki": "https://en.wikipedia.org/wiki/STS-6"
     }
 ]
