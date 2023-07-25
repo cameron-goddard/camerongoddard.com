@@ -4,8 +4,7 @@
 
 title: Cameron Goddard
 email: csg83@cornell.edu
-description: >
-  Computer Science student at Cornell University
+description: Computer Science student at Cornell University
 footer_text:
 keywords: 
 
@@ -110,7 +109,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800

@@ -42,7 +42,6 @@ h1 {
 
 .clearfix {
   margin-top: 40px;
-  // change
   margin-bottom: 120px;
 }
 
@@ -116,7 +115,6 @@ img {
 
 .navbar {
   box-shadow: none;
-  // border-bottom: 1px solid var(--global-theme-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -155,6 +153,9 @@ img {
 }
 
 .navbar-toggler {
+  
+  border-color: transparent !important;
+
   .icon-bar {
     display: block;
     width: 22px;
@@ -217,7 +218,6 @@ img {
   }
 }
 
-
 // Footer
 footer.sticky-bottom {
   // background-color: var(--global-footer-bg-color);
@@ -238,6 +238,14 @@ footer.sticky-bottom {
       text-decoration: none;
     }
   }
+}
+
+.lang-swift {
+  color: var(--swift-color);
+}
+
+.lang-python {
+  color: var(--python-color);
 }
 
 // Projects
@@ -267,6 +275,9 @@ footer.sticky-bottom {
       .card-title {
         color: var(--global-theme-color);
       }
+      .lang {
+        color: gray;
+      }
     }
   }
 
@@ -286,7 +297,7 @@ footer.sticky-bottom {
     }
   }
 
-  .card-text {
+  .card-lang {
     font-size: small !important;
     font-weight: 500;
     color: gray;
@@ -294,7 +305,6 @@ footer.sticky-bottom {
 
   h2.category {
     color: var(--global-divider-color);
-    border-bottom: 3px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
