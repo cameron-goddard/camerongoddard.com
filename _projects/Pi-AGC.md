@@ -2,8 +2,9 @@
 layout: page
 title: Pi-AGC
 languages: Python
-description: a project with a background image
-importance: 3
+description: A programmable replica of the Apollo Guidance Computer, built with Raspberry Pi
+redirect: https://github.com/cameron-goddard/Pi-AGC
+importance: 2
 category: School
-display: false
+display: true
 ---

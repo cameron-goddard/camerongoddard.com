@@ -2,8 +2,9 @@
 layout: page
 title: Minesweeper Desktop
 languages: Swift
-description: a project with a background image
+description: A modern Minesweeper app for macOS
+redirect: https://github.com/cameron-goddard/Minesweeper-Desktop
 importance: 2
 category: Personal
-display: false
+display: true
 ---
