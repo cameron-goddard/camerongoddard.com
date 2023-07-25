@@ -1,0 +1,17 @@
+{% if project.display -%}
+<div class="grid-item">
+  {% if project.redirect -%}
+  <a href="{{ project.redirect }}">
+    {%- else -%}
+    <a href="{{ project.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title">{{ project.title }}</h2>
+          <p class="card-text">{{ project.languages }}</p>
+          <p class="card-desc">{{ project.description }}</p>
+        </div>
+      </div>
+    </a>
+</div>
+{%- endif %}
