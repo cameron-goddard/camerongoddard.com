@@ -5,20 +5,6 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0</title>
-            <link>https://sparkle-project.org</link>
-            <sparkle:version>2.0</sparkle:version>
-            <sparkle:releaseNotesLink>
-                https://www.camerongoddard.com/brd/release_notes.html
-            </sparkle:releaseNotesLink>
-            <sparkle:fullReleaseNotesLink>
-                https://www.camerongoddard.com/brd/release_notes.html
-            </sparkle:fullReleaseNotesLink>
-            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
-            <enclosure url="https://you.com/app/Your%20Great%20App%202.0.zip" length="1623481" type="application/octet-stream" sparkle:edSignature="WVyVJpOx+a5+vNWJVY79TRjFKveNk+VhGJf2iti4CZtJsJewIUGvh/1AKKEAFbH1qUwx+vro1ECuzOsMmumoBA==" />
-            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
             <title>Version 1.0</title>
             <link>https://sparkle-project.org</link>
             <sparkle:version>1.0</sparkle:version>
@@ -28,8 +14,8 @@
             <sparkle:fullReleaseNotesLink>
                 https://www.camerongoddard.com/brd/release_notes.html
             </sparkle:fullReleaseNotesLink>
-            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
-            <enclosure url="https://you.com/app/Your%20Great%20App%202.0.zip" length="1623481" type="application/octet-stream" sparkle:edSignature="WVyVJpOx+a5+vNWJVY79TRjFKveNk+VhGJf2iti4CZtJsJewIUGvh/1AKKEAFbH1qUwx+vro1ECuzOsMmumoBA==" />
+            <pubDate>Tue, 22 Aug 2023 19:20:11 +0000</pubDate>
+            <enclosure url="https://github.com/cameron-goddard/Big-Red-Dining/releases/download/1.0/brd_universal.zip" length="1623481" type="application/octet-stream" sparkle:edSignature="WVyVJpOx+a5+vNWJVY79TRjFKveNk+VhGJf2iti4CZtJsJewIUGvh/1AKKEAFbH1qUwx+vro1ECuzOsMmumoBA==" />
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
