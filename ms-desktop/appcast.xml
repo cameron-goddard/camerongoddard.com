@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Minesweeper Desktop Changelog</title>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
-        
+        <title>Minesweeper</title>
         <item>
-            <title>Version 0.2</title>
-            <link>https://sparkle-project.org</link>
-            <sparkle:version>0.2</sparkle:version>
-            <sparkle:releaseNotesLink>
-                https://www.camerongoddard.com/ms-desktop/release_notes.html
-            </sparkle:releaseNotesLink>
-            <sparkle:fullReleaseNotesLink>
-                https://www.camerongoddard.com/ms-desktop/release_notes.html
-            </sparkle:fullReleaseNotesLink>
-            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
-            <enclosure url="https://you.com/app/Your%20Great%20App%202.0.zip" length="1623481" type="application/octet-stream" sparkle:edSignature="WVyVJpOx+a5+vNWJVY79TRjFKveNk+VhGJf2iti4CZtJsJewIUGvh/1AKKEAFbH1qUwx+vro1ECuzOsMmumoBA==" />
-            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <title>0.1.0</title>
+            <pubDate>Tue, 27 Feb 2024 15:56:23 -0500</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://www.camerongoddard.com/ms-desktop/ms_desktop_0.1.0.zip" length="2487155" type="application/octet-stream" sparkle:edSignature="rKUEsS1+Bj1izAfHpHPpjPPHZomUxc7ntJg+1cd9oSxsXaQ1InJc9x/QuBbSrhpIA9GSl65wBgjH36OeYyhVCw=="/>
         </item>
     </channel>
 </rss>
