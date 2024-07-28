@@ -30,13 +30,19 @@ github_username: cameron-goddard
 linkedin_username: cameron-goddard
 
 # -----------------------------------------------------------------------------
-# Collections
+# Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+scholar:
+  source: /_projects/
+  bibliography: projects.bib
+  bibliography_template: bib
+
+  query: "@*"
+  group_by: type
+  group_order: descending
+
+  type_names: { personal: Personal, crt: Cornell Rocketry, alpha: Alpha CubeSat, other: Other }
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -89,7 +95,6 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
   uglifier_args:
     harmony: true
 
@@ -123,13 +128,6 @@ imagemagick:
     - ".tiff"
   output_formats:
     webp: "-resize 800x"
-
-# -----------------------------------------------------------------------------
-# Optional Features
-# -----------------------------------------------------------------------------
-
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
 
 # -----------------------------------------------------------------------------
 # Library versions

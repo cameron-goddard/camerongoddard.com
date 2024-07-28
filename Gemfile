@@ -10,6 +10,7 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-sitemap'
+    gem 'jekyll-scholar'
     gem 'unicode_utils'
     gem 'webrick'
 end

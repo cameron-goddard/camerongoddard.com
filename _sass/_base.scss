@@ -130,6 +130,10 @@ img {
   .navbar-brand {
     font-weight: bold;
     color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -240,77 +244,66 @@ footer.sticky-bottom {
   }
 }
 
-.lang-swift {
-  color: var(--swift-color);
-}
-
-.lang-python {
-  color: var(--python-color);
-}
-
 // Projects
 
 .projects {
+  margin-top: 2rem;
 
-  .grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem;
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
-  @media (min-width: 600px) {
-    .grid { grid-template-columns: repeat(3, 1fr); }
-  }
-  a {
-    text-decoration: none;
-
-    .card-title {
-      font-size: larger;
-      margin-bottom: 0px !important;
-      font-weight: bold;
-    }
-
-    &:hover {
-      .card-title {
-        color: var(--global-theme-color);
-      }
-      .lang {
-        color: gray;
-      }
-    }
-  }
-
-  // .card {
-  //   img {
-  //     width: 100%;
-  //   }
-  // }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  .card-lang {
-    font-size: small !important;
-    font-weight: 500;
-    color: gray;
-  }
-
-  h2.category {
-    color: var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
+  h2 {
     margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  h2.bibliography {
+    color: var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
     text-align: right;
-    font-weight: bold;
-    font-size: medium;
-    font-size: 30px;
+    font-weight: bold !important;
+    letter-spacing: -1px;
+  }
+
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        letter-spacing: -0.2px;
+      }
+
+      .subtitle {
+        font-style: italic;
+      }
+
+      .links {
+        padding-top: 12px;
+        a.btn {
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+        }
+      }
+    }
   }
 }
