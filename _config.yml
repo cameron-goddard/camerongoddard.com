@@ -42,7 +42,7 @@ scholar:
   group_by: type
   group_order: descending
 
-  type_names: { personal: Personal, crt: Cornell Rocketry, alpha: Alpha CubeSat, other: Other }
+  type_names: { personal: Personal, crt: Cornell Rocketry, ssds: Space Systems Design Studio, other: Other }
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
