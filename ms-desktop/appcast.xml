@@ -13,6 +13,7 @@
                 <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper3-2.delta" sparkle:deltaFrom="2" length="1269890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nc2SGoExKBWH88IM+boqMG4jjnHNPYtorINgo9UWrn3rd7xZVGU/UImMSNIrik6vFPQAviPm53MCtbrZhpK1CQ=="/>
                 <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper3-1.delta" sparkle:deltaFrom="1" length="1282326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="t+3sWIXyqdpxjnhmLEQw0h17yWonbzPKWqPF54ROdHofFjttD5tc4/Abas+hsWZgUs/2MQVDIDW7N50HcOuPBw=="/>
             </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://www.camerongoddard.com/ms-desktop/Minesweeper-0.3.0.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>0.2.0</title>
