@@ -22,15 +22,18 @@
     <div class="subtitle">{{ entry.subtitle }}</div>
     
     <div class="links">
-      {% if entry.language == "Swift" %}
+      {% assign langs = entry.languages | split: ", " %}
+      {% for lang in langs %}
+        {% if lang == "Swift" %}
           <img alt="Primary Language" src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=fff&style=flat">
-      {% endif %}
-      {% if entry.language == "C++" %}
-          <img alt="Primary Language" src="https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=flat">
-      {% endif %}
-      {% if entry.language == "Python" %}
-          <img alt="Primary Language" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat">
-      {% endif %}
+        {% endif %}
+        {% if lang == "C++" %}
+            <img alt="Primary Language" src="https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=flat">
+        {% endif %}
+        {% if lang == "Python" %}
+            <img alt="Primary Language" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat">
+        {% endif %}
+      {% endfor %}
       {% if entry.github %}
           <a href="{{ entry.github | prepend: 'https://github.com/' }}"><img alt="GitHub Repository" src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat"></a>
       {% endif %}
