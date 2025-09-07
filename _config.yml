@@ -82,6 +82,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Sitemap settings
 defaults:

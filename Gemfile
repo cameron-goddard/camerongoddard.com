@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'unicode_utils'
     gem 'webrick'
+    gem "jekyll-redirect-from"
 end
 group :other_plugins do
     gem 'feedjira'
