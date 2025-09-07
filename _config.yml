@@ -3,15 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Cameron Goddard
-email: csg83@cornell.edu  # Not used currently
-description: Computer Science student at Cornell University
-footer_text:
-keywords: 
-
+description: Software Engineer at SpaceX
+url: https://camerongoddard.com
 icon: happy_mac.ico
-
-url: https://camerongoddard.com # the base hostname & protocol for your site
-last_updated: true # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -42,7 +36,12 @@ scholar:
   group_by: type
   group_order: descending
 
-  type_names: { personal: Personal, crt: Cornell Rocketry, ssds: Space Systems Design Studio, other: Other }
+  type_names: { 
+    personal: Personal, 
+    crt: Cornell Rocketry, 
+    ssds: Space Systems Design Studio, 
+    other: Other 
+  }
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
