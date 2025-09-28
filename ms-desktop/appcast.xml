@@ -3,11 +3,28 @@
     <channel>
         <title>Minesweeper</title>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Sun, 28 Sep 2025 14:18:41 -0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/cameron-goddard/Minesweeper-Desktop/releases/download/v0.5.1/Minesweeper-0.5.1.zip" length="4161722" type="application/octet-stream" sparkle:edSignature="eC0yAd2piMKEkvVz+zAg5v9Ey4WVc2pRerq1/4Js+csIShD7NYOiZvfG/Kk0eTtoR5H0Dk2G//K2AkUWzl3HCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper6-5.delta" sparkle:deltaFrom="5" length="102786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hUsSYApRYbJoASvbTyzCjHDPDnnQF+5PRujeUYyuvH79usB+G2eBmnBTkT4cWLu1wGmaiYXRua2Bm0AaCN3IAA=="/>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper6-4.delta" sparkle:deltaFrom="4" length="2611802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rIdK4FxyNZL4LSVyKt2EjZTkfh/xiFdDq0kGsp/g4S1mFevz1mOIzZbyC8iccHp0sAnyEmadHWVccjQNNpvcCA=="/>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper6-3.delta" sparkle:deltaFrom="3" length="2736814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862928" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QOm74JBz0FgE+aQ1esAvDGZ8q7xf5m7OWv+ssq0l//R1VhJlqZWxcnNFKb3Q43POQRau5abzVkO7PMWLDwjYAQ=="/>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper6-2.delta" sparkle:deltaFrom="2" length="3294522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QUSkx+Snqkq254J5T3vZBnar8J4rpGLS2mCzG9LYFV9FCF4UuLNufXbL/z+u2+fpsqvsECd/ti+rY3FuTZ/XDQ=="/>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper6-1.delta" sparkle:deltaFrom="1" length="3300750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="p7K6uKw0lntyFBHJoPokILNJehng8UPz9Hxsi7euvGZV+V6B6rdKNKbp9XtFX/Bgtro+Nx333qqqPzMAkmRLBg=="/>
+            </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://www.camerongoddard.com/ms-desktop/Minesweeper-0.5.1.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Thu, 25 Sep 2025 22:39:43 -0700</pubDate>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotes>https://www.camerongoddard.com/ms-desktop/release_notes.html</sparkle:fullReleaseNotes>
             <enclosure url="https://github.com/cameron-goddard/Minesweeper-Desktop/releases/download/v0.5.0/Minesweeper-0.5.0.zip" length="4229501" type="application/octet-stream" sparkle:edSignature="bjPz3H9hIiNAumnW+3lur63AZV2FMUix15kdPJva2ykgtTfP4/dxiD6ApAzu3u1cl5KrHS0WoPYbBc3f5DCVDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper5-4.delta" sparkle:deltaFrom="4" length="2609826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="846480" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="keZ77gqLjuJf9JXbGxdWDylwOdNgQzfbEtMdl5uV7GKokr/P4pxZXJly9tbrIha40F0V4NMOFYcWGGF6TpqyDg=="/>
@@ -27,8 +44,8 @@
             <enclosure url="https://github.com/cameron-goddard/Minesweeper-Desktop/releases/download/v0.4.0/Minesweeper-0.4.0.zip" length="3373283" type="application/octet-stream" sparkle:edSignature="kl516IToWNEj0Vpcpkn1vZRnNOdkP4vBkP5oLZpINilb0mgGvJGMs9VDbEw3H8rxmDJuVE7Q6rGJNtF1la4TDQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper4-3.delta" sparkle:deltaFrom="3" length="650958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862928" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sdbH+QfgNPpFi2r3fIlol+fe08HPw9LxOKcS4A8ScWY64OOicptEO8F/c22ppGlVIWbKagjXQwaSOGImYGpjAQ=="/>
-                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper4-1.delta" sparkle:deltaFrom="1" length="1594894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sVx/6qWzIydd7G3RUqVI1npCGzjDFo6mYJpw1+4dXxr3tOMAe4w1oGnsk1+LVhVzC1rR/AXAa0lgEESzhy0nCw=="/>
                 <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper4-2.delta" sparkle:deltaFrom="2" length="1588334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1vxk9usO6NN7K6Lkvz/lppoyhzq5jmIx9gASm0U1CSS6yODwkPFrBlngvDSl6/RQdFCNh0ArL5F5L437L2BQBw=="/>
+                <enclosure url="https://www.camerongoddard.com/ms-desktop/Minesweeper4-1.delta" sparkle:deltaFrom="1" length="1594894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863184" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sVx/6qWzIydd7G3RUqVI1npCGzjDFo6mYJpw1+4dXxr3tOMAe4w1oGnsk1+LVhVzC1rR/AXAa0lgEESzhy0nCw=="/>
             </sparkle:deltas>
             <sparkle:releaseNotesLink>https://www.camerongoddard.com/ms-desktop/Minesweeper-0.4.0.html</sparkle:releaseNotesLink>
         </item>
